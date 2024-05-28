@@ -13,5 +13,13 @@
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "add": "^2.0.6",
+    "sass": "^1.77.2",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vuetify": "^3.6.7",
+    "yarn": "^1.22.22"
   }
 }

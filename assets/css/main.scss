@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --color-bg1: rgb(108, 0, 162);
+  --color-bg2: rgb(0, 17, 82);
+  --color1: 18, 113, 255;
+  --color2: 221, 74, 255;
+  --color3: 100, 220, 255;
+  --color4: 200, 50, 50;
+  --color5: 180, 180, 50;
+  --color-interactive: 140, 100, 255;
+  --circle-size: 80%;
+  --blending: hard-light;
+  --medium-purple: #b16cea;
+  --light-coral: #ff5e69 ;
+  --coral: #ff8a56;
+  --sandy-brown: #ffa84b;
+}
+
+.primary-gradient {
+  background-image: linear-gradient(108deg, var(--medium-purple) 8%, var(--light-coral) 40%, var(--coral) 77%, var(--sandy-brown) 91%);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #4f4f4f;
+
+  .glassy-bg {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 24px;
+  }
+  .container {
+    max-width: 1400px;
+    margin: 0 auto 0 auto;
+  }
+}
+
+.slide-from-top {
+  animation: fromTop 1.5s ease-out;
+}
+.slide-from-bottom {
+  animation: fromBottom 1s ease-out;
+}
+
+
+@keyframes fromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%)
+  }
+  100% {
+    opacity: .8;
+    transform: translateY(0) rotate(-365deg);
+
+  }
+}
+
+@keyframes fromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: .8;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
