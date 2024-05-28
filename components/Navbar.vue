@@ -1,11 +1,13 @@
 <template>
-    <nav class="glassy-bg position-fixed d-flex justify-lg-space-between align-center px-16 py-8">
-        <div class="primary-gradient text-white px-4 rounded rotate3d">Unappli</div>
-        <div class="d-flex" style="gap: 20px">
-            <div>Accueil</div>
-            <div>Services</div>
-            <div>A propos</div>
-            <div>Contact</div>
+    <nav class="glassy-bg position-fixed">
+        <div style="max-width: 1400px" class="d-flex justify-space-between align-center mx-auto">
+            <div class="primary-gradient text-white px-4 rounded rotate3d">Unappli</div>
+            <div class="d-flex" style="gap: 20px">
+                <div>Accueil</div>
+                <div>Services</div>
+                <div>A propos</div>
+                <div>Contact</div>
+            </div>
         </div>
     </nav>
 </template>
@@ -16,7 +18,7 @@
 
 <style scoped lang="scss">
 nav {
-    height: 40px;
+    height: 60px;
     width: 100%;
     z-index: 999;
     border-radius: 0;
