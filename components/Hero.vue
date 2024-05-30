@@ -1,12 +1,12 @@
 <template>
     <section class="container d-flex justify-center align-center w-100">
-        <v-row>
+        <v-row class="position-relative">
             <v-col cols="7" class="d-flex flex-column justify-center">
                 <h1 class="main-title">Bienvenue chez <span class="primary-gradient text-white px-2 rounded d-inline-block slide-from-top" style="transform: rotate(-5deg)">Unappli</span> <br> Votre développeur web rapide et abordable</h1>
                 <h3>Nous créons des sites web de qualité, rapidement et à un prix compétitif. <br> Contactez-nous dès maintenant pour discuter de votre projet.</h3>
                 <div class="d-flex w-100 mt-8" style="gap: 24px">
-                    <v-btn color="primary" variant="elevated">En savoir plus</v-btn>
-                    <v-btn color="secondary" variant="elevated">Nous contacter</v-btn>
+                    <v-btn color="primary" variant="elevated" rounded="xl">En savoir plus</v-btn>
+                    <v-btn color="secondary" variant="elevated" rounded="xl">Nous contacter</v-btn>
                 </div>
             </v-col>
             <v-col cols="5" class="d-flex align-center justify-center">

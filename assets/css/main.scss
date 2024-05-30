@@ -41,6 +41,12 @@ html, body {
     max-width: 1400px;
     margin: 0 auto 0 auto;
   }
+  .neumorphism {
+    border-radius: 16px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+  }
 }
 
 .slide-from-top {
@@ -49,6 +55,8 @@ html, body {
 .slide-from-bottom {
   animation: fromBottom 1s ease-out;
 }
+
+
 
 
 @keyframes fromTop {
